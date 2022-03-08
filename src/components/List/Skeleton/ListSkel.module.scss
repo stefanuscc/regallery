@@ -1,0 +1,81 @@
+// Vars
+@import "/src/_vars";
+
+.skelleton {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ccc;
+
+    @media screen and (max-width: $small) {
+        flex-direction: column;
+    }
+
+    @media screen and (min-width: $medium) {
+        flex-direction: row;
+    }
+
+    .image {
+        animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        opacity: .7;
+        background: $skell;
+
+        @media screen and (max-width: $small) {
+            width: 100%;
+            padding-bottom: 56.25%;
+        }
+    
+        @media screen and (min-width: $medium) {
+            width: 40%;
+            padding-bottom: 15%;
+        }
+    }
+
+    .attributes {
+        animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        opacity: .7;
+        display: grid;
+        gap: 1rem;
+        padding: 1rem 2rem;
+        width: calc(100% - 4rem);
+
+        @media screen and (max-width: $small) {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+
+        @media screen and (min-width: $medium) {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+    }
+
+    .title {
+        width: 100%;
+        height: 1rem;
+        margin: 0 0 5px;
+        background: $skell;
+    }
+
+    .name {
+        width: 100%;
+        height: 1.1rem;
+        margin: 0 0 5px;
+        background: $skell;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        opacity: .7;
+        transform: scale(1);
+    }
+
+    25% {
+        opacity: 1;
+        transform: scale(1.015);
+    }
+
+    50% {
+        opacity: .7;
+        transform: scale(1);
+    }
+}

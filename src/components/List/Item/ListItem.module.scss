@@ -1,0 +1,88 @@
+// Vars
+@import "/src/_vars";
+
+.item {
+    display:flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ccc;
+
+    @media screen and (max-width: $small) {
+        flex-direction: column;
+    }
+    @media screen and (min-width: $medium) {
+        flex-direction: row;
+    }
+
+    .container {
+        display: flex;
+
+        @media screen and (max-width: $small) {
+            width: 100%;
+        }
+        @media screen and (min-width: $medium) {
+            width: 40%;
+        }
+
+        .ibox {
+            width: 100%;
+            padding-bottom: 56.25%;
+            display: block;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+
+            &:hover {
+                transform: scale(1.07);
+            }
+
+            .image {
+                position: absolute;
+                // top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+
+                width: 100%;
+                height: auto;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+
+                &:hover {
+                    opacity: .8;
+                }
+            }
+
+        }
+    }
+    
+    .attributes {
+        display: grid;
+        gap: 1rem;
+        padding: 1rem 2rem;
+        width: calc(100% - 4rem);
+
+        @media screen and (max-width: $small) {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+
+        @media screen and (min-width: $medium) {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+    }
+
+    .title {
+        font-size: 1rem;
+        color: #555;
+        margin: 0 0 5px;
+    }
+
+    .name {
+        font-size: 1.1rem;
+        color: #333;
+        font-weight:600;
+        margin: 0;
+    }
+}

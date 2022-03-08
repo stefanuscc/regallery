@@ -1,0 +1,57 @@
+@import "/src/_vars";
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+  text-decoration: none;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 2em;  
+
+  .gallery-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+    @media screen and (max-width: $small) {
+      flex-direction: column;
+    }
+
+    @media screen and (min-width: $medium) {
+      flex-direction: row;
+    }
+
+    .gallery-title {
+      margin: 0;
+      font-size: 1.8rem;
+
+      @media screen and (max-width: $small) {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .gallery-control {
+    display: flex;
+  }
+}
+
+.sr-only {
+  display: none;
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+}

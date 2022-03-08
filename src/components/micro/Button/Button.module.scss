@@ -1,0 +1,31 @@
+// Vars
+@import "/src/_vars";
+
+.button {
+    border: 1px solid;
+    overflow: hidden;
+    outline: none;
+
+    align-items: center;
+    background-color: rgb(255 255 255);
+    border-color: rgb(209 213 219);
+    border-width: 1px;
+    color: rgb(55 65 81);
+    display: inline-flex;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    padding: 0.5rem 1rem;
+    position: relative;
+    cursor: pointer;
+
+    &.active {
+        background-color: $secondary !important;
+        border-color: $secondary;
+        color: white;
+    }
+
+    &.icon {
+        padding: 0.5rem 0.7rem;
+    }
+}
