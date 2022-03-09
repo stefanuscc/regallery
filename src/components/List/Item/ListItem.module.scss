@@ -62,13 +62,14 @@
         display: grid;
         gap: 1rem;
         padding: 1rem 2rem;
-        width: calc(100% - 4rem);
 
         @media screen and (max-width: $small) {
+            width: 100%;
             grid-template-columns: repeat(1, minmax(0, 1fr));
         }
 
         @media screen and (min-width: $medium) {
+            width: calc(100% - 4rem);
             grid-template-columns: repeat(3, minmax(0, 1fr));
         }
     }
