@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal to match snapshot 1`] = `
+<div
+  className="modal  "
+>
+  <div
+    className="dialog"
+  >
+    
+    <div
+      className="header"
+    >
+      
+    </div>
+    <div
+      className="content"
+    >
+      Hello World
+    </div>
+  </div>
+</div>
+`;

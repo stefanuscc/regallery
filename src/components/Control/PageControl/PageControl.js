@@ -32,7 +32,6 @@ export const PageControl = (props) => {
                 </svg>
             </Button>
             { [...Array(max)].map((el, idx) => (
-                
                 <Button 
                     key={idx}
                     isActive={page === idx + 1}

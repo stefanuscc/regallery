@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal Control to match snapshot 1`] = `
+<span
+  className="group "
+>
+  <button
+    className="button  active "
+    onClick={[Function]}
+    type="button"
+  >
+    SAVE
+  </button>
+  <button
+    className="button   "
+    onClick={[Function]}
+    type="button"
+  >
+    CANCEL
+  </button>
+</span>
+`;

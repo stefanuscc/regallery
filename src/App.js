@@ -61,7 +61,7 @@ function App() {
       <div className="gallery-header">
         <h2 className="gallery-title">Regallery</h2>
         <div className="gallery-control">
-          <PageControl page={page} max={3} onChange={setPage} className="mr-3"/>
+          <PageControl page={page} max={3} onChange={setPage} className=""/>
           <ModeControl mode={mode} onChange={handleModeChange} />
         </div>
       </div>

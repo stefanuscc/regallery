@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input to match snapshot 1`] = `
+<input
+  className="field "
+  onChange={[Function]}
+  placeholder="Rename Image"
+  type="text"
+  value="Image #1"
+/>
+`;

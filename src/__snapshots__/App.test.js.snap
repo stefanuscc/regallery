@@ -1,0 +1,340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App screen to match snapshot 1`] = `
+<div
+  className="gallery-container"
+>
+  <div
+    className="gallery-header"
+  >
+    <h2
+      className="gallery-title"
+    >
+      Regallery
+    </h2>
+    <div
+      className="gallery-control"
+    >
+      <span
+        className="group "
+      >
+        <button
+          className="button icon  "
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="sr-only"
+          >
+            Previous
+          </span>
+          <svg
+            className="icon"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15 19l-7-7 7-7"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+        <button
+          className="button  active "
+          disabled={true}
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="sr-only"
+          >
+            Page 
+            1
+          </span>
+          1
+        </button>
+        <button
+          className="button   "
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="sr-only"
+          >
+            Page 
+            2
+          </span>
+          2
+        </button>
+        <button
+          className="button   "
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="sr-only"
+          >
+            Page 
+            3
+          </span>
+          3
+        </button>
+        <button
+          className="button icon  "
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="sr-only"
+          >
+            Next
+          </span>
+          <svg
+            className="icon"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 5l7 7-7 7"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </span>
+      <span
+        className="group "
+      >
+        <button
+          className="button icon active "
+          data-mode="gallery"
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            className="icon"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
+            />
+          </svg>
+        </button>
+        <button
+          className="button icon  "
+          data-mode="list"
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            className="icon"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </button>
+      </span>
+    </div>
+  </div>
+  <div
+    className="gallery-content"
+  >
+    
+    <div
+      className="grid"
+    >
+      
+      <div
+        className="skeleton"
+      >
+        <div
+          className="image"
+        />
+        <div
+          className="title"
+        />
+        <div
+          className="name"
+        />
+      </div>
+      <div
+        className="skeleton"
+      >
+        <div
+          className="image"
+        />
+        <div
+          className="title"
+        />
+        <div
+          className="name"
+        />
+      </div>
+      <div
+        className="skeleton"
+      >
+        <div
+          className="image"
+        />
+        <div
+          className="title"
+        />
+        <div
+          className="name"
+        />
+      </div>
+      <div
+        className="skeleton"
+      >
+        <div
+          className="image"
+        />
+        <div
+          className="title"
+        />
+        <div
+          className="name"
+        />
+      </div>
+      <div
+        className="skeleton"
+      >
+        <div
+          className="image"
+        />
+        <div
+          className="title"
+        />
+        <div
+          className="name"
+        />
+      </div>
+      <div
+        className="skeleton"
+      >
+        <div
+          className="image"
+        />
+        <div
+          className="title"
+        />
+        <div
+          className="name"
+        />
+      </div>
+      <div
+        className="skeleton"
+      >
+        <div
+          className="image"
+        />
+        <div
+          className="title"
+        />
+        <div
+          className="name"
+        />
+      </div>
+      <div
+        className="skeleton"
+      >
+        <div
+          className="image"
+        />
+        <div
+          className="title"
+        />
+        <div
+          className="name"
+        />
+      </div>
+      <div
+        className="skeleton"
+      >
+        <div
+          className="image"
+        />
+        <div
+          className="title"
+        />
+        <div
+          className="name"
+        />
+      </div>
+      <div
+        className="skeleton"
+      >
+        <div
+          className="image"
+        />
+        <div
+          className="title"
+        />
+        <div
+          className="name"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="modal hidden "
+  >
+    <div
+      className="dialog"
+    >
+      
+      <div
+        className="header"
+      >
+        
+      </div>
+      <div
+        className="content"
+      >
+        <input
+          className="field "
+          onChange={[Function]}
+          placeholder="Rename Image"
+          type="text"
+          value=""
+        />
+        <span
+          className="group "
+        >
+          <button
+            className="button  active "
+            onClick={[Function]}
+            type="button"
+          >
+            SAVE
+          </button>
+          <button
+            className="button   "
+            onClick={[Function]}
+            type="button"
+          >
+            CANCEL
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

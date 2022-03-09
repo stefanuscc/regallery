@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page Control to match snapshot 1`] = `
+<span
+  className="group "
+>
+  <button
+    className="button icon  "
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      className="sr-only"
+    >
+      Previous
+    </span>
+    <svg
+      className="icon"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M15 19l-7-7 7-7"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  </button>
+  <button
+    className="button  active "
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      className="sr-only"
+    >
+      Page 
+      1
+    </span>
+    1
+  </button>
+  <button
+    className="button   "
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      className="sr-only"
+    >
+      Page 
+      2
+    </span>
+    2
+  </button>
+  <button
+    className="button   "
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      className="sr-only"
+    >
+      Page 
+      3
+    </span>
+    3
+  </button>
+  <button
+    className="button icon  "
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      className="sr-only"
+    >
+      Next
+    </span>
+    <svg
+      className="icon"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M9 5l7 7-7 7"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  </button>
+</span>
+`;

@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery to match snapshot 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="item"
+    data-idx={0}
+    data-selected={false}
+  >
+    <a
+      className="ibox"
+      href="https://unsplash.com/photos/_h7aBovKia4"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="Philippe Wuyts"
+        className="image"
+      />
+    </a>
+    <h3
+      className="title"
+    >
+      Philippe Wuyts
+    </h3>
+    <p
+      className="name"
+    >
+      Image #1016
+      <svg
+        className="icon button"
+        fill="none"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeWidth="2"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </p>
+  </div>
+  <div
+    className="item"
+    data-idx={1}
+    data-selected={false}
+  >
+    <a
+      className="ibox"
+      href="https://unsplash.com/photos/Kt5hRENuotI"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="Andrew Ridley"
+        className="image"
+      />
+    </a>
+    <h3
+      className="title"
+    >
+      Andrew Ridley
+    </h3>
+    <p
+      className="name"
+    >
+      Image #1018
+      <svg
+        className="icon button"
+        fill="none"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeWidth="2"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </p>
+  </div>
+  <div
+    className="item"
+    data-idx={2}
+    data-selected={false}
+  >
+    <a
+      className="ibox"
+      href="https://unsplash.com/photos/V6s1cmE39XM"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="Patrick Fore"
+        className="image"
+      />
+    </a>
+    <h3
+      className="title"
+    >
+      Patrick Fore
+    </h3>
+    <p
+      className="name"
+    >
+      Image #1019
+      <svg
+        className="icon button"
+        fill="none"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeWidth="2"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </p>
+  </div>
+  
+</div>
+`;
