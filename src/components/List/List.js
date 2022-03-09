@@ -4,7 +4,7 @@ import ListSkel from './Skeleton/ListSkel'
 import ListItem from './Item/ListItem'
 
 export const List = (props) => {
-    const { images, isLoading } = props
+    const { images, selected, onClick, isLoading } = props
 
     return (
         <div className={styles.list}>
@@ -13,7 +13,7 @@ export const List = (props) => {
                     <ListSkel key={i} idx={i}/>
                 )) : ''}
                 { isLoading || images == null ? '' : images.map((image, idx) => (
-                    <ListItem key={image.id} image={image} idx={idx}/>
+                    <ListItem isSelected={selected === image.id} image={image} idx={idx} key={image.id} onClick={onClick}/>
                 ))}
             </ul>
         </div>

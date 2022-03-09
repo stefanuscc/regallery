@@ -27,8 +27,8 @@ export const PageControl = (props) => {
         <span className={`${styles.group} ${className}`}>
             <Button isIcon={true} onClick={handlePrev} className="">
                 <span className="sr-only">Previous</span>
-                <svg xmlns="http://www.w3.org/2000/svg" className="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+                <svg xmlns="http://www.w3.org/2000/svg" className="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
                 </svg>
             </Button>
             { [...Array(max)].map((el, idx) => (
@@ -46,8 +46,8 @@ export const PageControl = (props) => {
             ))}
             <Button isIcon={true} onClick={handleNext} className="">
                 <span className="sr-only">Next</span>
-                <svg xmlns="http://www.w3.org/2000/svg" className="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                <svg xmlns="http://www.w3.org/2000/svg" className="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                 </svg>
             </Button>
         </span>
